@@ -1,0 +1,11 @@
+.updateproducts{
+    height: 80vh;
+    width:100vw;
+    border-radius: 40px;
+    display: grid;
+    grid-template-rows: 600px 600px;
+    justify-content: center;
+    align-items: center;
+    font-family:'Poppins',sans-serif ;
+
+}

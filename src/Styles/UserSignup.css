@@ -1,0 +1,50 @@
+.UserSignup{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpbjhLNGQ77VRZ9iM3meyVSE3v-_PbjlbvYA&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.UserSignup form{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF-M7ZIky4hTVYFPIwq8C0GFE2I6DlN0ynAA&s");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+
+}
+ .background,input{
+    border: none;
+    
+    font-size: 15px;
+    background-color:#807c7c;
+    width: 250px;
+    padding-left: 2px;
+    text-align: center
+    
+}
+#k{
+    height: 35px;
+    width: 100px;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: 500px;
+    margin-left: 80px;
+    background-color: rgb(48, 48, 47);
+    color:aliceblue;
+}
+#t{
+    text-align: center;
+    text-decoration: underline;
+    color: darkgrey;
+}

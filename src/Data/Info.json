@@ -1,0 +1,201 @@
+{
+  "Admin": [
+    {
+      "id": "1",
+      "name": "Thamarai",
+      "email": "thamaraik915@gmail.com",
+      "phone": 8838395096,
+      "password": "kan143"
+    },
+    {
+      "id": "2",
+      "name": "kannan",
+      "email": "thamaraikannan8838@gmail.com",
+      "phone": 8438689880,
+      "password": "tks143"
+    },
+    {
+      "id": "0aed",
+      "email": "sakthi@gmail.com",
+      "name": "sakthi",
+      "password": "daktha123",
+      "phone": "8346578987"
+    },
+    {
+      "id": "c6fe",
+      "email": "siva@gmail.com",
+      "name": "siva",
+      "password": "siva",
+      "phone": "8838395096"
+    },
+    {
+      "id": "1d5f",
+      "email": "tha132@gmail.com",
+      "name": "thamarai",
+      "password": "1234",
+      "phone": "4567893245"
+    },
+    {
+      "id": "b762",
+      "email": "fghf@gmail.com",
+      "name": "fhgfhf",
+      "password": "1234",
+      "phone": "1234567890"
+    }
+  ],
+  "User": [
+    {
+      "id": "e50d",
+      "email": "liewwhfu@mail.com",
+      "name": "rotu3pti",
+      "password": "1234",
+      "phone": "1234567892"
+    }
+  ],
+  "Product": [
+    {
+      "Category": "Electronics",
+      "name": "Refrigerator",
+      "price": "15000",
+      "image": "https://m.media-amazon.com/images/I/51Yc700zemL._AC_SY200_.jpg",
+      "rating": "5",
+      "desc": "Direct Cool Refrigerator: Experience efficient cooling with LG's Single Door Direct Cool Refrigerator, designed to keep your food fresh and energy consumption low",
+      "id": "f1e2"
+    },
+    {
+      "id": "020d",
+      "Category": "Furnitures",
+      "name": "Matress",
+      "price": "50000",
+      "rating": "5",
+      "image": "https://m.media-amazon.com/images/I/61KbBogOOWL._AC_UL480_FMwebp_QL65_.jpg",
+      "desc": "ADDITIONAL BENEFITS: High-quality Memory Foam. Uses latest technological innovations for excellent back support. Removable outer cover which can be machine washed"
+    },
+    {
+      "Category": "Mobile",
+      "name": "iphone",
+      "price": "89999",
+      "image": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX679_.jpg",
+      "rating": "7",
+      "desc": "\nCinematic mode adds shallow depth of field and shifts focus automatically in your videos\nAdvanced dual-camera system with 12MP Wide and Ultra Wide cameras; Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording",
+      "id": "fcd8"
+    },
+    {
+      "id": "8ddb",
+      "Category": "Electronics",
+      "name": "Charging Stand",
+      "price": "150",
+      "rating": "6",
+      "image": "https://m.media-amazon.com/images/I/61jVUB4y7pL._AC_UL480_FMwebp_QL65_.jpg",
+      "desc": "Universal mobile phone holder for most of smart phone models, offering a safer charging stand for your phones."
+    },
+    {
+      "id": "7bcd",
+      "Category": "Electronics",
+      "name": "airpods",
+      "price": "999",
+      "rating": "4",
+      "image": "https://m.media-amazon.com/images/I/513k7fgLRNL._AC_UY327_FMwebp_QL65_.jpg",
+      "desc": " Fastrack FPods bring you the latest BT version to enjoy seamless and uninterrupted connectivity."
+    },
+    {
+      "Category": "Mobile",
+      "name": " Diecast Motorcycle R/1 Toy",
+      "price": "2,99",
+      "image": "https://m.media-amazon.com/images/I/51UUSsu-Z1L._AC_UL480_FMwebp_QL65_.jpg",
+      "rating": "5",
+      "desc": "【Pull Back Motorcycle Toys】No battery needed to drive the motorcycle, just pull it back, then release your hand.",
+      "id": "1b19"
+    },
+    {
+      "id": "7739",
+      "Category": "Electronics",
+      "name": "Camera",
+      "price": "3500",
+      "rating": "6",
+      "image": "https://m.media-amazon.com/images/I/516WPkDM-wL._SX679_.jpg",
+      "desc": "tay ahead of potential threats with smart human and area movement detection. Receive instant mobile notifications upon human or motion detection, empowering you to take immediate action. "
+    },
+    {
+      "Category": "Electronics",
+      "name": "Laptop",
+      "price": "35999",
+      "image": "https://m.media-amazon.com/images/I/61sjfVAHnSL._AC_UL480_QL65_.jpg",
+      "rating": "9",
+      "desc": "Lenovo P12 Keyboard Detachable 3-Point Pogo-Pin Connectors Wireless Keyboard with Trackpad/Touchpad",
+      "id": "a8d5"
+    }
+  ],
+  "Cart": [
+    {
+      "id": "020d",
+      "name": "Matress",
+      "price": "50000",
+      "image": "https://m.media-amazon.com/images/I/61KbBogOOWL._AC_UL480_FMwebp_QL65_.jpg"
+    }
+  ],
+  "Order": [
+    {
+      "id": "84ea",
+      "items": [
+        {
+          "id": "fcd8",
+          "name": "iphone",
+          "price": "89999",
+          "image": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX679_.jpg"
+        },
+        {
+          "id": "1b19",
+          "name": " Diecast Motorcycle R/1 Toy",
+          "price": "2,99",
+          "image": "https://m.media-amazon.com/images/I/51UUSsu-Z1L._AC_UL480_FMwebp_QL65_.jpg"
+        },
+        {
+          "id": "7bcd",
+          "name": "airpods",
+          "price": "999",
+          "image": "https://m.media-amazon.com/images/I/513k7fgLRNL._AC_UY327_FMwebp_QL65_.jpg"
+        },
+        {
+          "id": "020d",
+          "name": "Matress",
+          "price": "50000",
+          "image": "https://m.media-amazon.com/images/I/61KbBogOOWL._AC_UL480_FMwebp_QL65_.jpg"
+        },
+        {
+          "id": "fcd8",
+          "name": "iphone",
+          "price": "89999",
+          "image": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX679_.jpg"
+        },
+        {
+          "id": "8ddb",
+          "name": "Charging Stand",
+          "price": "150",
+          "image": "https://m.media-amazon.com/images/I/61jVUB4y7pL._AC_UL480_FMwebp_QL65_.jpg"
+        },
+        {
+          "id": "7739",
+          "name": "Camera",
+          "price": "3500",
+          "image": "https://m.media-amazon.com/images/I/516WPkDM-wL._SX679_.jpg"
+        }
+      ],
+      "totalPrice": "0899992,9999950000899991503500",
+      "paymentMethod": "Online"
+    },
+    {
+      "id": "43dd",
+      "items": [
+        {
+          "id": "020d",
+          "name": "Matress",
+          "price": "50000",
+          "image": "https://m.media-amazon.com/images/I/61KbBogOOWL._AC_UL480_FMwebp_QL65_.jpg"
+        }
+      ],
+      "totalPrice": "050000",
+      "paymentMethod": "Online"
+    }
+  ]
+}

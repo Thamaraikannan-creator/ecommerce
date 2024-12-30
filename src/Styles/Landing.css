@@ -1,0 +1,47 @@
+/* Landing.css */
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://itseeze.com/_webedit/cached-images/3214-0-792-1736-8416-6312-1132.png'); /* Replace with your actual background image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.page a {
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.page img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.page h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.page a:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.page a:hover h1 {
+    color: #ffcc00;
+}
+
+.page a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,110 @@
+/* Userviewproduct.css */
+.UserViewpro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 30px;
+    background-color: #f0f4f8;
+  }
+  
+  .sub_items {
+    width: 320px;
+    background: linear-gradient(to bottom, #ffffff, #f7f8fa);
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .sub_items:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card1 {
+    padding: 20px;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #eaeaea;
+    transition: transform 0.3s ease;
+  }
+  
+  .thumbnail img:hover {
+    transform: scale(1.05);
+  }
+  
+  .description {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .description h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  #cost {
+    font-size: 15px;
+    color: #b0b0b0;
+    text-decoration: none;
+  }
+  
+  .description h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+    margin: 10px 0;
+  }
+  
+  .description p {
+    font-size: 14px;
+    color: #666;
+    margin: 8px 0;
+  }
+  
+  .description span {
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff9800;
+  }
+  
+  .description .btn {
+    background-color: #0056d2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .description .btn:hover {
+    background-color: #0041a6;
+    transform: scale(1.1);
+  }
+  
+  .description .btn:active {
+    transform: scale(0.95);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .UserViewpro {
+      padding: 15px;
+      gap: 15px;
+    }
+  
+    .sub_items {
+      width: 90%;
+    }
+  }
+  

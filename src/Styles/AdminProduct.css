@@ -1,0 +1,66 @@
+/* AdminProduct.css */
+
+.addproducts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f4f6f9;
+    padding: 2rem;
+  }
+  
+  .amma {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .amma fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .amma select,
+  .amma input[type="text"],
+  .amma input[type="img"],
+  .amma input[type="Number"],
+  .amma textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s;
+  }
+  
+  .amma select:focus,
+  .amma input[type="text"]:focus,
+  .amma input[type="img"]:focus,
+  .amma input[type="Number"]:focus,
+  .amma textarea:focus {
+    border-color: #e67e22;
+    outline: none;
+  }
+  
+  .amma button {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #e67e22;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .amma button:hover {
+    background-color: #d35400;
+  }
+  
