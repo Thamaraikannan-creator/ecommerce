@@ -1,6 +1,7 @@
 import Admin from "./Components/Admin";
 import Landing from "./Components/Landing";
 import Userlogin from "./Components/Userlogin";
+import { HashRouter } from "react-router-dom";
 import {BrowserRouter,Routes,Route}from "react-router-dom";
 import AdminSignup from "./Components/AdminSignup";
 import AdminHomepage from "./Components/AdminHomepage";
@@ -14,7 +15,7 @@ const App = () =>{
     return(
         <div className="app">
 
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
 
 
@@ -34,7 +35,7 @@ const App = () =>{
     
         
     </Routes>
-    </BrowserRouter> 
+    </HashRouter> 
     <ToastContainer/>       
         </div>
     )
